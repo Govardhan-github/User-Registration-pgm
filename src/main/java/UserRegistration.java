@@ -17,6 +17,7 @@ public class UserRegistration {
         }
         return Validation;//Return Validation
     }
+    //UC2
     //Declaring Method TO Validate LastName
     public boolean ValidateLastName(String LastName) {
         //Last Name Matching With The Pattern And Stored In Validation
@@ -29,6 +30,7 @@ public class UserRegistration {
         }
         return Validation;//Return Validation
     }
+    //UC3
     //Declaring Method TO Validate Email
     public boolean ValidateEmail(String Email) {
         //email Matching With The Pattern And Stored In Validation
@@ -41,9 +43,5 @@ public class UserRegistration {
         }
         return Validation;//Return Validation
     }
-
-
-
-
 }
 
