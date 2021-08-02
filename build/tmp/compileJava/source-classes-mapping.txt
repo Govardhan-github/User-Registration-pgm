@@ -1,4 +1,4 @@
-UserRegistrationMain.java
- UserRegistrationMain
 UserRegistration.java
  UserRegistration
+UserRegistrationMain.java
+ UserRegistrationMain

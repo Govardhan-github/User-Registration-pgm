@@ -8,6 +8,9 @@ public class UserRegistrationMain {
         //Here Calling Validate FirstName Method Storing The Result In Result
         boolean fName = userRegistration.ValidateFirstName("Gopi");
         System.out.println(fName);//Printing Result
+        //Here Calling Validate FirstName Method Storing The Result In Result
+        boolean lName = userRegistration.ValidateFirstName("Reddy");
+        System.out.println(lName);//Printing Result
     }
 }
 
