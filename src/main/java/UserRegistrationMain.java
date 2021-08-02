@@ -23,6 +23,9 @@ public class UserRegistrationMain {
         //Here Calling Validate Password Contain Upper Case Method Storing The Result In Result
         boolean PasswordUC = userRegistration.ValidatePasswordUpperCase("Gopi@145");
         System.out.println(PasswordUC);//Printing Result
+        //Here Calling Validate Password Contain One Numeric Number Method Storing The Result In Result
+        boolean PasswordNN = userRegistration.ValidatePasswordOneNumericNumber("Gopi@145");
+        System.out.println(PasswordNN);//Printing Result
     }
 }
 
