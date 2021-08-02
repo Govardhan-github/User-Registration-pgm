@@ -19,7 +19,7 @@ public class UserRegistration {
     }
     //Declaring Method TO Validate LastName
     public boolean ValidateLastName(String LastName) {
-        //First Name Matching With The Pattern And Stored In Validation
+        //Last Name Matching With The Pattern And Stored In Validation
         boolean Validation = pattern.matches("^[A-Z][a-z]{2,}$",LastName);
         //Validation Is Boolean Type True Or False
         if (Validation) {//If Validation Is True Print The Valid Name
@@ -29,5 +29,21 @@ public class UserRegistration {
         }
         return Validation;//Return Validation
     }
+    //Declaring Method TO Validate Email
+    public boolean ValidateEmail(String Email) {
+        //email Matching With The Pattern And Stored In Validation
+        boolean Validation = pattern.matches("^[a-z][a-zA-Z0-9]+([._+#-][a-zA-Z0-9]+)*@[a-zA-Z0-93]+.[a-zA-Z]{2,3}(.[a-zA-Z]{2,3})?$",Email);
+        //Validation Is Boolean Type True Or False
+        if (Validation) {//If Validation Is True Print The Valid Name
+            System.out.println("Email is Valid");
+        } else {//If Validation Is False Print The Name Is Invalid
+            System.out.println("Invalid... Enter valid Email");
+        }
+        return Validation;//Return Validation
+    }
+
+
+
+
 }
 
