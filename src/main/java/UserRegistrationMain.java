@@ -17,9 +17,12 @@ public class UserRegistrationMain {
         //Here Calling Validate PhoneNumber Method Storing The Result In Result
         boolean pNbr = userRegistration.ValidatePhoneNumber("91 9666110767");
         System.out.println(pNbr);//Printing Result
-         boolean Password = userRegistration.ValidatePassword("Gopi@145");
+        //Here Calling Validate Password Method Storing The Result In Result
+        boolean Password = userRegistration.ValidatePassword("Gopi@145");
         System.out.println(Password);//Printing Result
-
+        //Here Calling Validate Password Contain Upper Case Method Storing The Result In Result
+        boolean PasswordUC = userRegistration.ValidatePasswordUpperCase("Gopi@145");
+        System.out.println(PasswordUC);//Printing Result
     }
 }
 
