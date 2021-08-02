@@ -43,5 +43,18 @@ public class UserRegistration {
         }
         return Validation;//Return Validation
     }
+    //UC4
+    //Declaring Method TO Validate Phone Number
+    public boolean ValidatePhoneNumber(String PhoneNumber) {
+        //Phone Number Matching With The Pattern And Stored In Validation
+        boolean Validation = pattern.matches("^[9][1] [6-9]{1}[0-9]{9}$" ,PhoneNumber);
+        //Validation Is Boolean Type True Or False
+        if (Validation) {//If Validation Is True Print The Valid Number
+            System.out.println("Phone Number is Valid");
+        } else {//If Validation Is False Print The Number Is Invalid
+            System.out.println("Invalid... Enter valid Phone  Number");
+        }
+        return Validation;//Return Validation
+    }
 }
 

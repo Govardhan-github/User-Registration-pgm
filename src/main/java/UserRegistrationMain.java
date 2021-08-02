@@ -8,15 +8,15 @@ public class UserRegistrationMain {
         //Here Calling Validate FirstName Method Storing The Result In Result
         boolean fName = userRegistration.ValidateFirstName("Gopi");
         System.out.println(fName);//Printing Result
-        //Here Calling Validate FirstName Method Storing The Result In Result
-        boolean lName = userRegistration.ValidateFirstName("Reddy");
+        //Here Calling Validate LasttName Method Storing The Result In Result
+        boolean lName = userRegistration.ValidateLastName("Reddy");
         System.out.println(lName);//Printing Result
         //Here Calling Validate Email Method Storing The Result In Result
         boolean email = userRegistration.ValidateEmail("gopi1998@gmail.com");
         System.out.println(email);//Printing Result
-
-
-
+        //Here Calling Validate PhoneNumber Method Storing The Result In Result
+        boolean pNbr = userRegistration.ValidatePhoneNumber("91 9666110767");
+        System.out.println(pNbr);//Printing Result
     }
 }
 
