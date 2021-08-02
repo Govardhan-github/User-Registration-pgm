@@ -101,6 +101,19 @@ public class UserRegistration {
         }
         return Validation;//Return Validation
     }
+    //UC8
+    //Declaring Method TO Validate Password Has One Special Character
+    public boolean ValidatePasswordOneSpecialCharacter(String Password) {
+        //Password Matching With The Pattern And Stored In Validation
+        boolean Validation = pattern.matches("(?=.*[a-z])(?=.*[0-9])(?=.*[A-Z])(?=.*[@#$%!]).{8,}", Password);
+        //Validation Is Boolean Type True Or False
+        if (Validation) {//If Validation Is True Print The Valid Password
+            System.out.println("PasswordSC is Valid");
+        } else {//If Validation Is False Print The Password Is Invalid
+            System.out.println("Invalid... Enter valid Password");
+        }
+        return Validation;//Return Validation
+    }
 }
 
 

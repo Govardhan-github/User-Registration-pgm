@@ -26,6 +26,9 @@ public class UserRegistrationMain {
         //Here Calling Validate Password Contain One Numeric Number Method Storing The Result In Result
         boolean PasswordNN = userRegistration.ValidatePasswordOneNumericNumber("Gopi@145");
         System.out.println(PasswordNN);//Printing Result
+        //Here Calling Validate Password Contain One Special Character Method Storing The Result In Result
+        boolean PasswordSC = userRegistration.ValidatePasswordOneSpecialCharacter("Gopi@145");
+        System.out.println(PasswordSC);//Printing Result
     }
 }
 
